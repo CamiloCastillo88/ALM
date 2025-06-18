@@ -11,16 +11,16 @@
 
 Este repositorio contiene el código en Python que acompaña el artículo publicado. El objetivo del trabajo es estudiar un modelo de **Asset-Liability Management (ALM)** para aseguradoras que manejan múltiples líneas de negocio no vida, bajo restricciones de portafolio y correlación entre activos y pasivos. 
 
-Se propone un enfoque de **optimización estocástica** basado en **dualidad convexa** y el **método de martingalas**, con el fin de derivar estrategias óptimas de inversión y suscripción que maximizan la utilidad esperada de dividendos y riqueza terminal bajo preferencias CRRA.
+Se propone un enfoque de **optimización estocástica** basado en el **método de martingalas**, con el fin de derivar estrategias óptimas de inversión y suscripción que maximizan la utilidad esperada de dividendos y riqueza terminal bajo preferencias CRRA.
 
 ---
 
 ## 🧠 Metodología
 
 - Modelo en tiempo continuo con múltiples fuentes de riesgo (financieras y actuariales)
-- Riesgo de seguros modelado como proceso de salto-difusión multivariado
+- Riesgo de seguros modelado como proceso de difusión con saltos multivariado
 - Preferencias del agente representadas mediante funciones de utilidad CRRA
-- Solución del problema de optimización mediante técnicas de **dualidad de Lagrange**
+- Solución del problema de optimización mediante técnicas de **dualidad de convexa**
 - Derivación de condiciones de optimalidad y análisis de sensibilidad
 - Implementación numérica en Python
 
@@ -44,10 +44,13 @@ Este repositorio contiene todos los scripts necesarios para replicar los princip
 
 ---
 
-## 👤 Autor
+## 👤 Autores
 
 **Camilo Castillo**  
 ORCID: [https://orcid.org/0000-0003-3064-3464](https://orcid.org/0000-0003-3064-3464)
+
+**Rafael Serrano**
+ORCID: [https://orcid.org/0000-0003-4306-0903](https://orcid.org/0000-0003-4306-0903)
 
 ---
 
