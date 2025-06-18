@@ -49,7 +49,7 @@ Este repositorio contiene todos los scripts necesarios para replicar los princip
 **Camilo Castillo**  
 ORCID: [https://orcid.org/0000-0003-3064-3464](https://orcid.org/0000-0003-3064-3464)
 
-**Rafael Serrano**
+**Rafael Serrano**  
 ORCID: [https://orcid.org/0000-0003-4306-0903](https://orcid.org/0000-0003-4306-0903)
 
 ---
